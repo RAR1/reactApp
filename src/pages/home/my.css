@@ -1,0 +1,49 @@
+.my {
+  background: #81ecec;
+}
+
+.my .top {
+  width: 100%;
+  height: 16.5rem;
+  background-image: linear-gradient(#0c60A0 10%, #1985B3 90%, #0c60A0);
+  position: relative;
+}
+.my .top .setting {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+.my .top .setting .iconfont {
+  width: 2rem;
+  height: 2rem;
+}
+.my .top .title {
+  text-align: center;
+  padding: 2rem;
+}
+.my .top img {
+  width: 6rem;
+  height: 6rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.my .top .title p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+.my .top .tabBar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4.5rem;
+  background: rgba(0, 150, 180, 0.5)
+}
+.my .top .tabBar .iconfont {
+  margin-top: .5rem;
+  width: 2rem;
+  height: 2rem;
+}
+.my .top .tabBar .info {
+  color: #515151;
+}
